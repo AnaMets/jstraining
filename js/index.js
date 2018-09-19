@@ -7,3 +7,11 @@ var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
 var randomInsult = ["You have", randomBodyPart, "looks like", randomAjective, randomWord].join(" ");
 
 document.write(randomInsult);
+
+var scores = {
+    nastia: 0,
+    arhur: 0
+};
+scores.nastia +=4;
+scores.arhur +=7;
+document.write(scores);
